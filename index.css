@@ -100,6 +100,9 @@ body{
     margin-left:1rem ;
     margin-right: 1rem;
 }
+.tweetbtn:hover{
+    background-color: #39acf4;
+}
 
 /* feed Container */
 .feed-container{
@@ -459,6 +462,9 @@ body{
     font-weight: 600;
     
 }
+.flwbtn:hover{
+    background-color: #333333;
+}
 .rightfooter
 {
     display: flex;
@@ -478,7 +484,7 @@ body{
 @media only screen and (max-width: 1300px)
 {
     .feed-container .img,.media{
-        width: 90%;
+        width: 9    0%;
         height: auto;
     }
     .post-footer{
@@ -574,6 +580,15 @@ body{
 }
 @media only screen and (max-width: 500px)
 {
+    .accname{
+        font-size: 12px ;
+    }
+    .accver{
+        font-size:18px
+    }
+    .accusername {
+        font-size: 12px;
+    }
     .leftbar{
         display: none;
     }
@@ -619,4 +634,26 @@ body{
         width: 100%;
         height: auto;
     }
+}
+@media only screen and (max-width: 378px)
+{
+    
+    .feed-container .img{
+        width: 95%;
+        height: auto;
+        
+    }
+    .feed-container .media{
+        width: 95%;
+        height: auto;
+
+    }
+   .post-footer .ficon{
+    font-size: 18px;
+    padding: 4px;
+    
+   }
+   .post-footer span{
+    font-size: 14px;
+   }
 }
